@@ -1,0 +1,194 @@
+#About_Me_Paragraph {
+    width:960px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: #777777;
+    background: #ffffff;
+    border-top:solid #777777;
+   
+}
+
+p {
+font-family: Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+header {
+font-family: 'Georgia',Times, 'Times New Roman', serif serif;
+background:#ffffff;
+border-style: solid;
+margin: 0 auto;
+margin-bottom: 20px;
+clear:both;
+border-bottom: #cccccc
+left: 0, right: 0, top: 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#Name_Logo{
+    float: left;
+    width: 200px;
+    text-align: center;
+    background-color:#4aaaa5;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+
+
+
+}
+
+
+
+h1 {
+padding: 20px 0;
+margin:0;
+margin-bottom: 20px;
+color:#eee; 
+font-size: 28px;
+text-align: center; 
+}
+
+h2 {font-size: 24px;
+border-bottom: 1px #cccccc solid;
+padding: 20px;
+color:#4aaaa5;
+}
+
+#headerlinks { width: 700px;
+float: left;
+text-align: right;
+padding-right:20px;
+margin-right: 20px;
+}
+
+#headerlinks li{
+color: #777777;
+text-align: right;
+display: inline;
+
+}
+
+
+
+#main-bio, 
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+width: 70%;
+border: 30 px #dddddd;
+background:#ffffff;
+padding-left:20px;
+position: relative;
+margin-left:140px; 
+margin-right:150px;
+padding-right: 20px;
+}
+
+#contact-info {
+width: 30%;
+}
+
+#bio-image {
+width: 200px;
+height:200px;
+margin-right: 20px;
+}
+footer {
+color: #eee;
+text-align: center;
+background: #666666;
+position: fixed;
+left: 0; right: 0; bottom: 0;
+width: 100%;
+padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding:0 4px;
+}
+
+.column{
+    flex:50%;
+    padding:0 4px;
+
+}
+.column img{
+    margin-top:8px;
+    vertical-align: middle;
+}
+
+    
+    body {font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+    
+    input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+    
+    .container_contactpage {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;}
+
+        body {
+            background-image: url("assets/gravel.png");}
+.banner1{
+        background-color: $front-blue;
+        color: white;
+        text-align: center;
+        width: $image-size + $triangle-size * 2;
+        position: absolute;
+        top: 300px;
+        height: 50px;
+        font-size: 30px;
+}
+.left-triangle, .right-triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+  }
+  
+  .left-triangle {
+    border-top: $triangle-size solid $back-blue;
+    border-left: $triangle-size solid transparent;
+    margin-top: 14px;
+  }
+  
+  .right-triangle {
+    border-top: $triangle-size solid $back-blue;
+    border-right: $triangle-size solid transparent;
+    margin-top: 14px;
+    margin-left: $image-size + $triangle-size;
+  }
