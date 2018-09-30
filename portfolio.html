@@ -25,7 +25,7 @@ left: 0, right: 0, top: 0;
 .clearfix::after {
     content: "";
     clear: both;
-    display: table;
+   
 }
 #Name_Logo{
     float: left;
@@ -123,6 +123,35 @@ border-top:#4aaaa5 solid;
     box-sizing: border-box;
 }
 
+@media screen and (max-width:768px){
+   .container{
+       margin: 75px;
+   }
+   #headerlinks {
+       margin-left:50px;
+   }
+}
+@media screen and (max-width:640px){
+    .container{
+        position:-ms-page;
+    }
+    #headerlinks{
+        padding:250px;
+    }
+    #Name_Logo{
+        margin-inline-start: 150px;
+        width:100%;
+        padding: 140px;
+        margin-right: 1000px;
+    }
+    h2 {
+        margin-left: 250px;
+    }
+    .row{
+        margin-left: 125px;
+    }
+}
+
 
     </style>
 
@@ -152,7 +181,6 @@ border-top:#4aaaa5 solid;
         <img src="/Users/andrewburns/Desktop/Basic-Portfolio/Basic-Portfolio_Homework/Basic-Portfolio_Homework/assets/images/Car.jpg">
     </div>
     <div class="banner1">
-            Car Project
             <div class="left-triangle"></div>
             <div class="right-triangle"></div>
           </div>
@@ -183,7 +211,7 @@ border-top:#4aaaa5 solid;
             <div class="right-triangle"></div>
           </div>
     <div class="image5">
-        <img src="/Users/andrewburns/Desktop/Basic-Portfolio/Basic-Portfolio_Homework/Basic-Portfolio_Homework/assets/images/Apps.jpg">
+        <img src="/Users/andrewburns/Desktop/Basic-Portfolio/Basic-Portfolio_Homework/Basic-Portfolio_Homework/assets/images/Apps.jpg" >
     </div> 
     <div class="banner">
             Ruby on the Rails App
@@ -197,7 +225,7 @@ border-top:#4aaaa5 solid;
 </div>
 
 
-
+<br /> <br /> <br /> 
 
 
 
@@ -211,5 +239,5 @@ border-top:#4aaaa5 solid;
 
     </body>
 
-    <footer>Copyright©</footer>
+    <footer>Copyright© 2018</footer>
 </html>
